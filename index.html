@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,u ser-scalable=no">
+    <title>cshop</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_518606_6676bmcalnrhehfr.css">
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js">
+    </script>
+    <script>
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function() {
+                FastClick.attach(document.body);
+            }, false);
+        }
+        if (!window.Promise) {
+            document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+        }
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <!-- 
+      要注意此项目的stylus版本问题，应为3.0.2版本
+      也有可能是axios没装
+
+      npm install stylus-loader@3.0.2 --save --registry=https://registry.npm.taobao.org
+       npm install axios --registry=https://registry.npm.taobao.org
+
+     -->
+    <!-- 建脚手架时候的步骤
+    1、npm install -g vue-cli --registry=https://registry.npm.taobao.org
+    2、vue init webpack cshop --registry=https://registry.npm.taobao.org
+    3、cd如文件夹：cd cshop
+    4、全局安装：npm install --registry=https://registry.npm.taobao.org
+    5、npm run dev
+
+
+    后续工作
+    <style lang="stylus" rel="stylesheet/stylus">
+    /* 上面style后面的语句告诉编译器 下面我是使用stylus语法来写css的 */
+    7、安装stylus依赖包
+    npm install stylus stylus-loader --save-dev --registry=https://registry.npm.taobao.org
+    8、下载v-router npm install vue-router --save --registry=https://registry.npm.taobao.org
+
+    9、下载swiper
+     npm install --save swiper --registry=https://registry.npm.taobao.org
+
+
+    10、生成本地仓库
+    先git init
+    后git add *
+
+    -->
+</body>
+
+</html>
