@@ -54,8 +54,43 @@
 
     10、生成本地仓库
     先git init
+
     后git add *
 
+    再 git commit -m "init cshop"
+
+    再关联github上的项目
+    git remote add origin https://github.com/umitomoya/210120_cshop.git
+
+    随后git push origin master
+    
+    11、下载vuex 使用vuex管理状态
+    npm install --save vuex --registry=https://registry.npm.taobao.org
+
+    12、下载mint-ui
+    npm install --save mint-ui --registry=https://registry.npm.taobao.org
+
+    13、下载工具包（按需打包）
+    npm install --save-dev babel-plugin-component --registry=https://registry.npm.taobao.org
+
+    14、下载mockjs 用来模拟数据
+    npm install mockjs --registry=https://registry.npm.taobao.org
+
+    15、下载better-scroll
+    npm install better-scroll --save --registry=https://registry.npm.taobao.org
+
+    16、下载图片懒加载所要用到的包
+    npm install --save vue-lazyload --registry=https://registry.npm.taobao.org
+
+    17、下载格式化日期的包
+    npm install --save moment --registry=https://registry.npm.taobao.org
+
+        由于moment格式化包太大，若要优化
+        可以使用date-fns 代替moment
+        npm install --save date-fns --registry=https://registry.npm.taobao.org
+
+    18、项目写完最后的最后可以使用打包格式化
+    npm run bulid --report --registry=https://registry.npm.taobao.org
     -->
 </body>
 

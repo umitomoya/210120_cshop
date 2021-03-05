@@ -9,6 +9,7 @@
 </template>
 
 <script>
+
 // 接收组件声明 props
 export default {
     props:{
